@@ -1,0 +1,11 @@
+joint:
+  names: [shoulder_lift,shoulder_roll,elbow]
+motion:
+  names: [right, zero]
+  right:
+    step: [-29.18, 29.18, 5.2]  # radian
+    time_from_start: 3.0  # sec
+  zero:
+    step: [0.0, 0.0,-1]
+    time_from_start: 6.0
+
